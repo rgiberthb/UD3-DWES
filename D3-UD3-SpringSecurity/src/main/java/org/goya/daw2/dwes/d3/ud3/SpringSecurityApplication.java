@@ -1,13 +1,13 @@
-package org.goya.daw2.dwes.d2ud3;
+package org.goya.daw2.dwes.d3.ud3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AutenticacionSesionesApplication {
+public class SpringSecurityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AutenticacionSesionesApplication.class, args);
+		SpringApplication.run(SpringSecurityApplication.class, args);
 	}
 
 }
